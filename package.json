@@ -1,0 +1,24 @@
+{
+  "name": "local-migration-test",
+  "version": "1.0.0",
+  "description": "A small tool to test migrations locally before running them in pulumi",
+  "main": "testMigrate.js",
+  "scripts": {
+    "start": "node testMigrate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ware2go/local-migration-test.git"
+  },
+  "author": "Carter Dewey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ware2go/local-migration-test/issues"
+  },
+  "homepage": "https://github.com/ware2go/local-migration-test#readme",
+  "dependencies": {
+    "mongodb": "^4.6.0",
+    "uuid": "^8.3.2"
+  }
+}
