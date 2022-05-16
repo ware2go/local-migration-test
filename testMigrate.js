@@ -12,7 +12,7 @@ async function main(){
     const collection = db.collection("YOU_COLLECIOTN_NAME");
 
 
-    await collection.updateOne({_id: new ObjectId(projectionOrder._id)}, [
+    await collection.updateOne({_id: new ObjectId("1234")}, [
       {
         $set: {
           _id: uuidv4(),
